@@ -1,4 +1,4 @@
-import { useReducer, useState } from "react";
+import { useReducer, useState, useParams } from "react";
 import { ACTION_TYPE } from "./types";
 import { UserReducer, user_initial } from "./reducer";
 import { postData, uploadImage } from "./services/http";
