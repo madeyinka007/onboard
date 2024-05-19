@@ -1,7 +1,6 @@
 import { useReducer, useState } from "react";
 import { ACTION_TYPE } from "./types";
 import { UserReducer, user_initial } from "./reducer";
-import { redirect, useParams } from "react-router-dom";
 import { postData, uploadImage } from "./services/http";
 
 function Left(){
