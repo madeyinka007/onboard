@@ -1,7 +1,8 @@
-import { useReducer, useState, useParams } from "react";
+import { useReducer, useState } from "react";
 import { ACTION_TYPE } from "./types";
 import { UserReducer, user_initial } from "./reducer";
 import { postData, uploadImage } from "./services/http";
+import { useParams } from "react-router-dom";
 
 function Left(){
     const {client} = useParams()
