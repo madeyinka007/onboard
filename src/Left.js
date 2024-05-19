@@ -171,7 +171,7 @@ function Left(){
                                 </div>
                                 <div class="text-center">
 	                                <div class="form-group terms">
-	                                    <label class="container_check">Please accept our <a href="#" data-bs-toggle="modal" data-bs-target="#terms-txt">Terms and conditions</a> to continue
+	                                    <label class="container_check">Please accept our <a href="not-found.html" data-bs-toggle="modal" data-bs-target="#terms-txt">Terms and conditions</a> to continue
 	                                        <input type="checkbox" name="terms" value="Yes" class="required" />
 	                                        <span class="checkmark"></span>
 	                                    </label>
