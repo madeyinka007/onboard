@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/:client" element={<Main />} />
+        <Route path="/" element={<Main />} />
       </Routes>
     </>
   );
